@@ -99,7 +99,7 @@ def getExcel():
     networkdata_cat12 = network_df[network_df.Priority.isin(
         ["Category1", "Category2"])]
     networkdata_cat34 = network_df[network_df.Priority.isin(
-        ["P3:Medium", "P4:Minor"])]
+        ["Category3", "Category4"])]
 
     # print (itdata_cat12)
     # path to files to be written
